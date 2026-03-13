@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -v && npm -v)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm create vite@latest . -- --template react-ts)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm init -y)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm install react react-dom && npm install -D vite @vitejs/plugin-react typescript @types/react @types/react-dom)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm install -D tailwindcss postcss autoprefixer)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm install framer-motion lucide-react class-variance-authority clsx tailwind-merge @radix-ui/react-slot @radix-ui/react-dialog @radix-ui/react-tabs @radix-ui/react-label @radix-ui/react-scroll-area @radix-ui/react-select @radix-ui/react-tooltip)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm install -D tailwindcss@3 postcss autoprefixer)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm run build 2>&1)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm install tslib)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)"
+    ]
+  }
+}

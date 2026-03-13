@@ -84,15 +84,7 @@ export const projects: Project[] = [
     category: "open-source",
     githubUrl: "https://github.com",
   },
-  {
-    id: "8",
-    title: "Fitness Tracker",
-    description: "Mobile app for tracking workouts, nutrition, and health metrics.",
-    image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=500&fit=crop",
-    tech: ["React Native", "GraphQL", "Apollo", "AWS"],
-    category: "mobile",
-    demoUrl: "https://example.com",
-  },
+
 ]
 
 export const categories = [

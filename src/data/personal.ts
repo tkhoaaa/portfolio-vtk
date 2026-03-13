@@ -6,7 +6,7 @@ export const personalInfo = {
   avatar: "/avt.jpg",
   email: "khoa0372243036@gmail.com",
   location: "Ho Chi Minh City, Vietnam",
-  availability: "Sẵn sàng tìm tòi các dự án mới",
+  availability: "Sẵn sàng bắt đầu làm việc",
   resumeUrl: "/CV-VoTienKhoa.pdf",
 }
 

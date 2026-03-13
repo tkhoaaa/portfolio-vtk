@@ -11,10 +11,10 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: "1",
-    company: "TechCorp Vietnam",
-    role: "Senior Frontend Developer",
+    company: "Đại học Công nghệ thành phố Hồ Chí Minh",
+    role: "Sinh viên",
     period: "2022 - Present",
-    description: "Leading frontend development for enterprise SaaS products, mentoring junior developers, and implementing design systems.",
+    description: "Là 1 sinh viên tôi đã tham gia nhiều hoạt động tại trường và các hoạt động thể thao tại trường ",
     highlights: [
       "Led team of 5 developers building a $2M ARR product",
       "Reduced load time by 40% through optimization",

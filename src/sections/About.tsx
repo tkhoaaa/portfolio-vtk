@@ -41,7 +41,7 @@ export function About() {
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <SectionHeading
           title="About Me"
-          subtitle="A passionate frontend developer dedicated to building exceptional digital experiences"
+          subtitle="Là 1 lập trình viên Front-end Developer đam mê tìm tòi những thứ mới mẻ, nắm bắt mọi thứ xu hướng, tìm hiểu và học nhưng kiến thức mới và giao diện hiện đại cho các dự án."
         />
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
@@ -54,25 +54,21 @@ export function About() {
             className="space-y-6"
           >
             <h3 className="text-2xl md:text-3xl font-display font-semibold">
-              Crafting Digital Experiences with Code & Passion
+              Trải nghiệm thực tế các dự án và đam mê
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm a frontend developer with a passion for creating beautiful,
-                functional, and user-centric web applications. With over 5 years
-                of experience in the industry, I've had the privilege of working
-                with startups and enterprises to bring their digital visions to life.
+              Tôi là một frontend developer với niềm đam mê tạo ra các ứng dụng web đẹp mắt, hiệu quả và lấy người dùng làm trung tâm. Hiện tại tôi đã tốt nghiệp và đang có mong muốn được ứng tuyển vào công ty để được học hỏi và dóng góp 1 phần cho công ty.
               </p>
               <p>
-                My approach combines technical expertise with a deep understanding
-                of user experience. I believe that great software isn't just about
-                clean code—it's about solving real problems and creating meaningful
-                interactions that delight users.
+              Cách tiếp cận của tôi là sự kết hợp giữa chuyên môn kỹ thuật và sự thấu hiểu sâu sắc về trải nghiệm người
+              dùng. Tôi tin rằng một sản phẩm phần mềm tuyệt vời không chỉ nằm ở code sạch, mà còn ở khả năng giải
+              quyết những vấn đề thực tế và tạo ra những tương tác ý nghĩa khiến người dùng hài lòng.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+              Khi không lập trình, tôi thường dành thời gian khám phá các công nghệ mới,
+                tìm tòi những dự án mới, tìm hiểu những giao diện mới đang có trên thị trường
+                và các thông tin hữu dịch trong cộng đồng developer.
               </p>
             </div>
 

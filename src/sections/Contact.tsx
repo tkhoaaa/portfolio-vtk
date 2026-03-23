@@ -84,7 +84,7 @@ export function Contact() {
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <SectionHeading
           title="Get In Touch"
-          subtitle="Have a project in mind or want to collaborate? Let's talk!"
+          subtitle="Chào mừng bạn đến portfolio, hãy liên hệ mình nhé !"
         />
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
@@ -98,12 +98,11 @@ export function Contact() {
           >
             <div>
               <h3 className="text-2xl font-display font-semibold mb-4">
-                Let's start a conversation
+                Hãy liên hệ đến tôi.
               </h3>
               <p className="text-muted-foreground">
-                I'm always open to discussing new projects, creative ideas, or
-                opportunities to be part of your visions. Feel free to reach out
-                through any of the channels below.
+                Bạn đã đọc được những thông tin của tôi, nếu thông tin của tôi đã đáp ứng đủ
+                hãy liên hệ đến thông tin ở dưới nhé.
               </p>
             </div>
 
@@ -171,7 +170,7 @@ export function Contact() {
                   <Input
                     id="name"
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="Vo Tien Khoa"
                     value={formData.name}
                     onChange={handleChange}
                     className={cn(errors.name && "border-destructive")}
@@ -188,7 +187,7 @@ export function Contact() {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="Khoa@example.com"
                     value={formData.email}
                     onChange={handleChange}
                     className={cn(errors.email && "border-destructive")}

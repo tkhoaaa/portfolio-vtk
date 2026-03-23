@@ -13,7 +13,6 @@ const navItems = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
-  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ]
 
@@ -114,7 +113,7 @@ export function Navbar() {
               className="hidden md:flex"
               onClick={() => scrollToSection("#contact")}
             >
-              Let's Talk
+              Nihao
             </Button>
 
             {/* Mobile Menu */}
@@ -155,7 +154,7 @@ export function Navbar() {
                   <div className="flex gap-3 mt-4 px-2">
                     <ThemeToggle />
                     <Button className="flex-1" onClick={() => scrollToSection("#contact")}>
-                      Let's Talk
+                      Nihao
                     </Button>
                   </div>
                 </div>

@@ -1,91 +1,92 @@
- Các file cần chỉnh sửa
+# Võ Tiến Khoa — Frontend Developer
 
-  1. Thông tin cá nhân
+Portfolio cá nhân được xây dựng bằng React, TypeScript và Tailwind CSS.
 
-  Mở file src/data/personal.ts:
+**Demo:** [tkhoaaa.github.io](https://tkhoaaa.github.io)
 
-  export const personalInfo = {
-    name: "Nguyen Van A",        // ← Tên của bạn
-    role: "Frontend Developer",  // ← Vai trò của bạn
-    subtitle: "Building digital experiences with passion & precision",
-    bio: "I'm a frontend developer...", // ← Mô tả về bạn
-    avatar: "https://...",       // ← Link ảnh profile của bạn
-    email: "hello@example.com",  // ← Email của bạn
-    location: "Ho Chi Minh City, Vietnam",
-    availability: "Available for freelance projects",
-  }
+---
 
-  export const socials = {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://twitter.com/yourhandle",
-    email: "mailto:youremail@gmail.com",
-  }
+## Giới thiệu
 
-  2. Projects
+> *"Xây dựng những trải nghiệm số với đam mê và sự tinh tế."*
 
-  Mở file src/data/projects.ts - Thay đổi mảng projects:
+Mình là **Võ Tiến Khoa**, Frontend Developer mới ra trường, đam mê phát triển giao diện web hiện đại, responsive và mang lại trải nghiệm người dùng tốt nhất.
 
-  {
-    id: "1",
-    title: "Tên dự án",
-    description: "Mô tả ngắn",
-    longDescription: "Mô tả chi tiết",
-    image: "https://link-anh-project.jpg",
-    tech: ["React", "TypeScript", "Node.js"],
-    category: "web",  // hoặc "mobile", "open-source"
-    demoUrl: "https://demo-link.com",
-    githubUrl: "https://github.com/yourrepo",
-    featured: true,    // true nếu muốn hiển thị nổi bật
-  }
+- 📍 Ho Chi Minh City, Vietnam
+- 📧 khoa0372243036@gmail.com
+- 💼 Sẵn sàng bắt đầu làm việc
 
-  3. Skills
+---
 
-  Mở file src/data/skills.ts - Thay đổi mảng skills và stats:
+## Các dự án nổi bật
 
-  // Thêm kỹ năng mới
-  { name: "Tên công nghệ", icon: "tên-icon", description: "Mô tả", category: "frontend" }
+### HUTECH ADMISSION
+Hệ thống tuyển sinh trực tuyến cho HUTECH University — đăng ký, xét học bổng, tra cứu kết quả và dashboard quản trị.
 
-  // Icon có thể dùng: react, typescript, nextjs, vue, tailwind, nodejs, docker, git, figma, v.v.
+- **Tech:** React, Tailwind CSS, Node.js, MySQL, JWT
+- **Demo:** [do-an-tuyen-sinh.vercel.app](https://do-an-tuyen-sinh.vercel.app)
+- **Source:** [GitHub](https://github.com/tkhoaaa/DoAnTuyenSinh)
 
-  // Thay đổi stats
-  export const stats = [
-    { label: "Years Experience", value: 5, suffix: "+" },
-    { label: "Projects Completed", value: 30, suffix: "+" },
-    // ...
-  ]
+### KMESS — Cross-Platform Social App
+Ứng dụng mạng xã hội đa nền tảng với chat thời gian thực, gọi thoại/video, stories, thông báo và hệ thống quản trị.
 
-  4. Experience
+- **Tech:** Flutter, Dart, Firebase, Cloudinary, WebRTC
+- **Source:** [GitHub](https://github.com/tkhoaaa/DuAN_KMESSApp)
 
-  Mở file src/data/experience.ts:
+---
 
-  {
-    id: "1",
-    company: "Tên công ty",
-    role: "Vai trò của bạn",
-    period: "2022 - Present",
-    description: "Mô tả công việc",
-    highlights: [
-      "Điểm nổi bật 1",
-      "Điểm nổi bật 2",
-    ],
-  }
+## Kỹ năng
 
-  5. Testimonials
+### Frontend
+React · TypeScript · Next.js · Tailwind CSS · Framer Motion · HTML/CSS
 
-  Mở file src/data/testimonials.ts:
+### Backend & Database
+Node.js · Express · Firebase · MongoDB · MySQL · REST APIs
 
-  {
-    id: "1",
-    name: "Tên người đánh giá",
-    role: "Vai trò",
-    company: "Công ty",
-    avatar: "https://link-anh-nguoi-danh-gia.jpg",
-    quote: "Nội dung đánh giá",
-  }
+### Tools
+Git · VS Code · Postman
 
-  ---
-  Cách chạy và kiểm tra
+---
 
-  # Chạy development server
-  npm run dev
+## Tech Stack
+
+| Category | Technology |
+|----------|-----------|
+| Framework | React 19 + Vite |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| UI Components | Radix UI |
+| Icons | Lucide React |
+| Build Tool | Vite |
+
+---
+
+## Cài đặt & Chạy
+
+```bash
+# Clone repository
+git clone https://github.com/tkhoaaa/portfolio-vtk.git
+cd portfolio-vtk
+
+# Cài đặt dependencies
+npm install
+
+# Chạy development server
+npm run dev
+
+# Build production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+---
+
+## Liên hệ
+
+- GitHub: [github.com/tkhoaaa](https://github.com/tkhoaaa)
+- Facebook: [facebook.com/khoa.votien.16](https://facebook.com/khoa.votien.16)
+- Instagram: [instagram.com/its.tskhoa_](https://instagram.com/its.tskhoa_/)
+- Email: khoa0372243036@gmail.com

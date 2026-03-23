@@ -10,7 +10,8 @@
       "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm install -D tailwindcss@3 postcss autoprefixer)",
       "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm run build 2>&1)",
       "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm install tslib)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(cd \"C:/Users/Admin/source/repos/portfolio-vtk\" && npm run build 2>&1 | tail -20)"
     ]
   }
 }

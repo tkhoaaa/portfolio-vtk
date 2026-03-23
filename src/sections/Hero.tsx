@@ -200,7 +200,7 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.8 }}
                 className="absolute top-8 right-0 px-4 py-2 rounded-full bg-card border border-border shadow-lg"
               >
-                <span className="text-sm font-medium">Fresher.</span>
+                <span className="text-sm font-medium">Intern.</span>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: -20 }}
@@ -208,7 +208,7 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.9 }}
                 className="absolute bottom-16 left-0 px-4 py-2 rounded-full bg-card border border-border shadow-lg"
               >
-                <span className="text-sm font-medium">3+ Projects</span>
+                <span className="text-sm font-medium">2+ Projects</span>
               </motion.div>
             </div>
           </motion.div>

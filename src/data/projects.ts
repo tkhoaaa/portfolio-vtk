@@ -30,7 +30,7 @@ export const projects: Project[] = [
     description: "KMess is a full-featured cross-platform social media application developed with Flutter, Dart, Firebase, and WebRTC. It includes multi-method authentication, real-time chat, voice/video calling, stories, post management, notifications, and admin moderation features, following Clean Architecture for scalability and maintainability.",
     image: "/app-kmess.png",
     tech: ["Fluetter", "Dart", "Firebase", "Cloudinary", "WebRTC"],
-    category: "app",
+    category: "mobile",
     demoUrl: "https://github.com/tkhoaaa/DuAN_KMESSApp",
     githubUrl: "https://github.com/tkhoaaa/DuAN_KMESSApp",
   },
